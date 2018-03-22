@@ -1,0 +1,32 @@
+{
+  "name": "sqlbase",
+  "version": "1.0.0",
+  "description": "wraps an ODBC SQLbase Connection so you dont have handle the difficult stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set user=barockoco-milan-server && set pass=7K1fFvnqUgtUswBV5P56ISnxEtj && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phenyll/sqlbase.git"
+  },
+  "keywords": [
+    "sqlbase",
+    "gupta",
+    "odbc",
+    "sql",
+    "wrapper"
+  ],
+  "author": "phenyll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phenyll/sqlbase/issues"
+  },
+  "homepage": "https://github.com/phenyll/sqlbase#readme",
+  "dependencies": {
+    "moment": "^2.20.1",
+    "odbc": "^1.3.0",
+    "superagent": "^3.8.2"
+  }
+}
